@@ -23,7 +23,7 @@ options "*" do
 end
 
 Dotenv.load
-Stripe.api_key = ENV['STRIPE_SECRET_KEY']
+Stripe.api_key = "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"
 Stripe.api_version = '2020-03-02'
 
 def log_info(message)
