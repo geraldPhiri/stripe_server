@@ -4,9 +4,6 @@
   "repository": "https://github.com/stripe/example-terminal-backend",
   "keywords": ["ios", "android", "javascript", "stripe", "terminal", "stripe terminal"],
   "env": {
-    "STRIPE_SECRET_KEY": {
-      "description": "Find this at https://dashboard.stripe.com/account/apikeys (it'll look like sk_test_****)",
-      "required": true
-    }
+    "STRIPE_SECRET_KEY": "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"
   }
 }
